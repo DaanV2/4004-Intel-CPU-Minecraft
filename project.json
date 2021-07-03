@@ -2,10 +2,55 @@
   "$schema": "https://raw.githubusercontent.com/DaanV2/ChipToMinecraft.Net/master/schema/project.json",
   "world": "./world",
   "layers": [
-    { "file": "./data/i4004-contacts.bmp", "start": [0, 0, 0], "scale": 1, "thickness": 1, "block": { "id": "minecraft:copper", "states": [] } },
-    { "file": "./data/i4004-diffusion.bmp", "start": [0, 1, 0], "scale": 1, "thickness": 1, "block": { "id": "minecraft:copper", "states": [] } },
-    { "file": "./data/i4004-metal.bmp", "start": [0, 2, 0], "scale": 1, "thickness": 1, "block": { "id": "minecraft:iron_block", "states": [] } },
-    { "file": "./data/i4004-poly.bmp", "start": [0, 3, 0], "scale": 1, "thickness": 1, "block": { "id": "minecraft:copper", "states": [] } },
-    { "file": "./data/i4004-vias.bmp", "start": [0, 4, 0], "scale": 1, "thickness": 1, "block": { "id": "minecraft:copper", "states": [] } }
+    {
+      "file": "./data/i4004-contacts.bmp",
+      "start": [0, 0, 0],
+      "scale": 1,
+      "thickness": 1,
+      "block": {
+        "id": "minecraft:waxed_copper",
+        "states": []
+      }
+    },
+    {
+      "file": "./data/i4004-diffusion.bmp",
+      "start": [0, 1, 0],
+      "scale": 1,
+      "thickness": 1,
+      "block": {
+        "id": "minecraft:waxed_copper",
+        "states": []
+      }
+    },
+    {
+      "file": "./data/i4004-metal.bmp",
+      "start": [0, 2, 0],
+      "scale": 1,
+      "thickness": 1,
+      "block": {
+        "id": "minecraft:iron_block",
+        "states": []
+      }
+    },
+    {
+      "file": "./data/i4004-poly.bmp",
+      "start": [0, 3, 0],
+      "scale": 1,
+      "thickness": 1,
+      "block": {
+        "id": "minecraft:waxed_copper",
+        "states": []
+      }
+    },
+    {
+      "file": "./data/i4004-vias.bmp",
+      "start": [0, 4, 0],
+      "scale": 1,
+      "thickness": 1,
+      "block": {
+        "id": "minecraft:waxed_copper",
+        "states": []
+      }
+    }
   ]
 }
