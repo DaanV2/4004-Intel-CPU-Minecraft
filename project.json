@@ -20,27 +20,27 @@
       "start": [0, 5, 0],
       "scale": 1,
       "thickness": 4,
-      "block": { "id": "minecraft:waxed_copper", "states": [] }
+      "block": { "id": "minecraft:gold_block", "states": [] }
     },
     {
       "file": "./data/i4004-poly.bmp",
       "start": [0, 8, 0],
       "scale": 1,
       "thickness": 3,
-      "block": { "id": "minecraft:gold_block", "states": [] }
+      "block": { "id": "minecraft:waxed_copper", "states": [] }
     },
     {
       "file": "./data/i4004-vias.bmp",
       "start": [0, 0, 0],
       "scale": 1,
-      "thickness": 10,
-      "block": { "id": "minecraft:oxidized_copper", "states": [] }
+      "thickness": 11,
+      "block": { "id": "minecraft:netherite_block", "states": [] }
     },
     {
       "file": "./data/i4004-contacts.bmp",
       "start": [0, 0, 0],
       "scale": 1,
-      "thickness": 10,
+      "thickness": 11,
       "block": { "id": "minecraft:oxidized_copper", "states": [] }
     }
   ]
