@@ -1,6 +1,6 @@
-# I4004-CPU-Minecraft
+# I4004 Intel CPU - Minecraft
 
-A conversion of the CPU specification of the I4004 CPU into a macro scale in minecraft.
+A conversion of the CPU specification of the I4004 Intel CPU into a macro scale in minecraft.
 Makes use of the Chip to minecraft project: [ChipToMinecraft.Net](https://github.com/DaanV2/ChipToMinecraft.Net)
 
 ![view](./assets/thumbnail.jpg)
