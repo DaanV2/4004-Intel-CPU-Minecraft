@@ -27,7 +27,7 @@
       "start": [0, 8, 0],
       "scale": 1,
       "thickness": 3,
-      "block": { "id": "minecraft:waxed_copper", "states": [] }
+      "block": { "id": "minecraft:gold_block", "states": [] }
     },
     {
       "file": "./data/i4004-vias.bmp",
