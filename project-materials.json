@@ -20,7 +20,7 @@
       "start": [0, 6, 0],
       "scale": 1,
       "thickness": 4,
-      "block": { "id": "minecraft:waxed_copper_block", "states": [] }
+      "block": { "id": "minecraft:waxed_copper", "states": [] }
     },
     {
       "file": "./data/i4004-diffusion.bmp",
