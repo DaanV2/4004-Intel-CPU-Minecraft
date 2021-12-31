@@ -7,40 +7,49 @@
     "multi-thread": false,
     "cache-chunks": true
   },
-  "layers": [    
+  "layers": [
     {
       "file": "./data/i4004-metal.bmp",
-      "start": [0, 0, 0],
+      "start": [0, 20, 0],
       "scale": 1,
       "thickness": 4,
-      "block": { "id": "minecraft:iron_block", "states": [] }
-    },
-    {
-      "file": "./data/i4004-diffusion.bmp",
-      "start": [0, 6, 0],
-      "scale": 1,
-      "thickness": 4,
-      "block": { "id": "minecraft:gold_block", "states": [] }
+      "block": {
+        "id": "minecraft:concrete",
+        "states": [{ "name": "color", "type": "string", "value": "blue" }]
+      }
     },
     {
       "file": "./data/i4004-poly.bmp",
-      "start": [0, 10, 0],
+      "start": [0, 5, 0],
       "scale": 1,
-      "thickness": 3,
-      "block": { "id": "minecraft:waxed_copper", "states": [] }
+      "thickness": 4,
+      "block": {
+        "id": "minecraft:concrete",
+        "states": [{ "name": "color", "type": "string", "value": "red" }]
+      }
+    },
+    {
+      "file": "./data/i4004-diffusion.bmp",
+      "start": [0, 0, 0],
+      "scale": 1,
+      "thickness": 4,
+      "block": {
+        "id": "minecraft:concrete",
+        "states": [{ "name": "color", "type": "string", "value": "green" }]
+      }
     },
     {
       "file": "./data/i4004-vias.bmp",
       "start": [0, 0, 0],
       "scale": 1,
-      "thickness": 11,
+      "thickness": 24,
       "block": { "id": "minecraft:netherite_block", "states": [] }
     },
     {
       "file": "./data/i4004-contacts.bmp",
-      "start": [0, 6, 0],
+      "start": [0, 0, 0],
       "scale": 1,
-      "thickness": 8,
+      "thickness": 15,
       "block": { "id": "minecraft:oxidized_copper", "states": [] }
     }
   ]
