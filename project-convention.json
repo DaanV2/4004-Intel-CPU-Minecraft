@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DaanV2/ChipToMinecraft.Net/master/schema/project.json",
+  "world": "./world",
+  "output": "./output-convention",
+  "options": {
+    "concurrency": 16,
+    "multi-thread": false,
+    "cache-chunks": true
+  },
+  "layers": [
+    {
+      "file": "./data/i4004-metal.bmp",
+      "start": [0, 20, 0],
+      "scale": 1,
+      "thickness": 4,
+      "block": {
+        "id": "minecraft:concrete",
+        "states": [{ "name": "color", "type": "string", "value": "blue" }]
+      }
+    },
+    {
+      "file": "./data/i4004-poly.bmp",
+      "start": [0, 6, 0],
+      "scale": 1,
+      "thickness": 4,
+      "block": {
+        "id": "minecraft:concrete",
+        "states": [{ "name": "color", "type": "string", "value": "red" }]
+      }
+    },
+    {
+      "file": "./data/i4004-diffusion.bmp",
+      "start": [0, 1, 0],
+      "scale": 1,
+      "thickness": 4,
+      "block": {
+        "id": "minecraft:concrete",
+        "states": [{ "name": "color", "type": "string", "value": "green" }]
+      }
+    },
+    {
+      "file": "./data/i4004-vias.bmp",
+      "start": [0, 0, 0],
+      "scale": 1,
+      "thickness": 24,
+      "block": { "id": "minecraft:netherite_block", "states": [] }
+    },
+    {
+      "file": "./data/i4004-contacts.bmp",
+      "start": [0, 0, 0],
+      "scale": 1,
+      "thickness": 10,
+      "block": { "id": "minecraft:oxidized_copper", "states": [] }
+    }
+  ]
+}
